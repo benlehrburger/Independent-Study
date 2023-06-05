@@ -1,0 +1,11 @@
+diffusion_pytorch_model.safetensors not found
+Traceback (most recent call last):
+  File "/dartfs-hpc/rc/home/5/f003xf5/ImageGenPy/forwardDreamBooth.py", line 23, in <module>
+    pipe = StableDiffusionPipeline.from_pretrained(
+  File "/dartfs-hpc/rc/home/5/f003xf5/.conda/envs/ImageGen/lib/python3.9/site-packages/diffusers/pipelines/pipeline_utils.py", line 1039, in from_pretrained
+    loaded_sub_model = load_sub_model(
+  File "/dartfs-hpc/rc/home/5/f003xf5/.conda/envs/ImageGen/lib/python3.9/site-packages/diffusers/pipelines/pipeline_utils.py", line 448, in load_sub_model
+    loaded_sub_model = load_method(cached_folder, **loading_kwargs)
+  File "/dartfs-hpc/rc/home/5/f003xf5/.conda/envs/ImageGen/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2406, in from_pretrained
+    raise EnvironmentError(
+OSError: Error no file named pytorch_model.bin, tf_model.h5, model.ckpt.index or flax_model.msgpack found in directory /dartfs-hpc/rc/home/5/f003xf5/.cache/huggingface/hub/models--benlehrburger--animal-image-generation-deep/snapshots/dfbb18b7daf2c470984acd673be852dea58fa745.
