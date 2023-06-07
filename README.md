@@ -64,12 +64,12 @@ I trained a masked language model to autocomplete my next word based on my under
 
 The model does well at predicting words in a coherent way.
 
->I'm looking for [MASK] >>> i'm looking for answers
+>I'm looking for [MASK] >>> i'm looking for answers  
 >I believe in [MASK] >>> i believe in truth
 
 But it doesn't exactly understand who I am.
 
->I go to school in [MASK] >>> i go to school in bangkok
+>I go to school in [MASK] >>> i go to school in bangkok  
 >Ben [MASK] >>> ben!
 
 I think if I were to give the tool more of a capacity for "long-term memory" moving forwards and consistently train it, it would really start to become a helpful, personalized writing aide. But right now it's just kind of weirdly pessimistic:
