@@ -24,12 +24,12 @@ My best findings comprise the following tools. I cast a wide net into the pool o
 ## Text-Guided Image-to-Image Generation for Modern Architecture Design
 
 <p align="center">
-    <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Out5.png" alt="Input Image" width="45%" />
+    <img src="Outputs/GenerativeArchitecture/Img2Img/House/Input.jpg" alt="Input Image" width="45%" />
     <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Out5.png" alt="Output Image" width="45%" />
 </p>
 
 <p align="center">
-    <em>Model Input Image</em>    -->    <em>Model Output Image</em>
+    <em>Model Input</em>       -->       <em>Model Output</em>
 </p>
 
 ## Masked Language Models for Personalized Autocompletion
