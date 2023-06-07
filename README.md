@@ -86,16 +86,27 @@ I think if I were to give the tool more of a capacity for "long-term memory" mov
 
 ### Models
 
-• [Generative Architecture](Models/ImageGeneration)
+• [Generative Architecture](./Models/ImageGeneration)
 • [Masked Language Model](./Models/LanguageModels/AutoComplete)
 
 ### Computing
 
-I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dartmouth.edu/index.php/discovery-overview/) GPUs, in conjunction with [Dartmouth Research Computing](https://rc.dartmouth.edu/). The remote cluster drastically sped up training and feed-forward runs, by about 10^2 the speed my CPU was running at. Special thank you to Kunal Jha, a D'24 ML wizard, who helped me get set up with the cluster. I 
+I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dartmouth.edu/index.php/discovery-overview/) GPUs, in conjunction with [Dartmouth Research Computing](https://rc.dartmouth.edu/). The remote cluster drastically sped up training and feed-forward runs, by about 10^2 the speed my CPU was running at. Special thank you to Kunal Jha, a D'24 ML wizard, who helped me get set up with the cluster. I intend to add my documentation notes to this repository in coming weeks (which I found to be very helpful). Dartmouth alum Jin Hyun Cheong also wrote a detailed [documentation](https://jinhyuncheong.com/jekyll/update/2016/07/24/How-to-use-the-Discovery-cluster.html) that I would recommend.
 
 ### Scripts
 
+• [Train Generative Architecture](./Scripts/Train/archGenDepth.py)
+• [Train Autocomplete](./Scripts/Train/archGenDepth.py)
+• [Feed-Forward Architecture](./Scripts/FeedForward/forwardNPaint.py
+• [Feed-Forward Autocomplete](./Scripts/FeedForward/forwardComplete.py)
+
 # Intermediary Models
+
+### Dreambooth Unconditional Pet Diffusion
+
+### Stable Diffusion Unconditional Church Generation
+
+### Naive Chatbot Trained on Text Message Data
 
 # Works Cited
 
