@@ -1,6 +1,6 @@
 # Generative AI: Empowering Creatives with Specialized Image and Language Models
 
-I'll cut to the chase. Generative AI is cool but no, I don't think it's going destroy humanity.
+I'll cut to the chase. Generative AI is cool, but no, I don't think it's going destroy humanity.
 
 I wanted to find some interesting applications of generative AI for my independent study in Cognitive Science @ Dartmouth College. Formally, my focus  area is "How can understanding the brain help us build better tools?" I have learned that Generative AI is a powerful application of brain-based software that affords incredible opportunities for creating tools that improve the human experience. Whether it's neurons or nodes, the emergent properties resulting from millions of finetuned dials never ceases to amaze me.
 
