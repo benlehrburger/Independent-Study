@@ -32,6 +32,28 @@ My best findings comprise the following tools. I cast a wide net into the pool o
     <em>Prompt = "modern house with a spacious home office, featuring large windows, a sleek desk setup, and plenty of natural light to inspire productivity"</em>
 </p>
 
+This text-guided image-to-image model takes as input a prompt and an image and returns an ammended version of the image based on the prompt. The model is built on top of [Stable Diffusion 2-1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) and finetuned for 75 epochs on a [custom web-scraped modern architecture dataset](https://huggingface.co/datasets/benlehrburger/modern-architecture). My vision for this model was to serve as the foundations of a tool to assist architects and designers in thinking outside of any box they may be confined to.
+
+<p align="center">
+    <img src="Outputs/GenerativeArchitecture/Img2Img/Office/Example-1/Input.jpg" alt="Input Image" width="45%" />
+    <img src="Outputs/GenerativeArchitecture/Img2Img/Office/Example-1/Out1.png" alt="Output Image" width="45%" />
+</p>
+
+<p align="center">
+    <em>Prompt = "office building designed for sustainability, incorporating features like solar panels, rainwater harvesting systems, and efficient insulation to minimize environmental impact"</em>
+</p>
+
+To be a fully deployable tool, the model should be further finetuned on organic architecture (think [Zaha Hadid](https://www.zaha-hadid.com/)). Right now it produces a lot of "classically" modern results that are not as outlandish as the [Parametricism Era](https://en.wikipedia.org/wiki/Parametricism) of architecture – based on CAD modeling and algorithmic design – permits. It also suffers from the classic image generation pitfall of warping and bending reality when you take a closer look. However, it is an interesting first step towards new architectural possibilities.
+
+<p align="center">
+    <img src="Outputs/GenerativeArchitecture/Img2Img/Church/Input.jpg" alt="Input Image" width="45%" />
+    <img src="Outputs/GenerativeArchitecture/Img2Img/Church/Out1.png" alt="Output Image" width="45%" />
+</p>
+
+<p align="center">
+    <em>Prompt = "modern church that pays homage to its religious symbolism through carefully crafted contemporary stained glass windows, capturing the play of light and color"</em>
+</p>
+
 ## Masked Language Models for Personalized Autocompletion
 
 # Training
