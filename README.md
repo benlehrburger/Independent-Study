@@ -15,9 +15,9 @@ I wanted to find some interesting applications of generative AI for my independe
 2-3. [Computing](###computing)  
 2-4. [Scripts](###scripts)
 3. [Intermediary Models](#intermediary-models)  
-3-1. [Dreambooth Unconditional Pet Diffusion](###dreambooth-unconditional-pet-diffusion)
-3-2. [Stable Diffusion Unconditional Church Generation](###stable-diffusion-unconditional-church-generation)
-3-3. [Naive Chatbot Trained on Text Message Data](###naive-chatbot-trained-on-text-message-data)
+3-1. [Dreambooth Unconditional Pet Diffusion](###dreambooth-unconditional-pet-diffusion)  
+3-2. [Stable Diffusion Unconditional Church Generation](###stable-diffusion-unconditional-church-generation)  
+3-3. [Naive Chatbot Trained on Text Message Data](###naive-chatbot-trained-on-text-message-data)  
 5. [Tutorials](#tutorials)  
 6. [Next Steps](#next-steps)  
 
@@ -159,6 +159,18 @@ This model was not nearly as powerful as the others, as you can tell by the low 
 </p>
 
 ### Naive Chatbot Trained on Text Message Data
+
+This [naive chatbot](./Models/LanguageModels/NaiveChatbot/Naive Chatbot.ipynb) was a stepping stone on my way to some sort of a custom large language model, which ended up becoming the aforementioned autocompletion tool. For a dataset, I downloaded my entire iPhone text history (which I did not publish online for obvious reasons) and isolated only messages I had sent. I then trained a chatbot from Python's Chatterbot library, but the chatbot was far too sensitive to my training data, which was also garbage. It turns out I am a gramatically terrible texter. Here are some of the dialogues between the chatbot and I:
+
+>Me: Hello
+>Text-me: hello Joey
+<em>Joe (Joey) is a good friend.</em>
+>Me: How are you?
+>Text-me: tired
+<em>Sounds like me.</em>
+>Me: What are you doing tonight?
+>Text-me: where did you find it
+><em>It really knows how to kill a good conversation.</em>
 
 # Tutorials
 
