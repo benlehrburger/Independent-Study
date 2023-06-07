@@ -27,9 +27,9 @@ My best findings comprise the following tools. I cast a wide net into the pool o
     <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Input.jpg" alt="Input Image" width="45%" />
     <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Out5.png" alt="Output Image" width="45%" />
     
-    | Caption 1 | Caption 2 |
-    | :-------: | :-------: |
-    |  Model Input Image  |  Model Output Image  |
+    | Caption 1   |   Caption 2 |
+    | :-------:   |   :-------: |
+    |   Model Input Image   |   Model Output Image   |
 </div> -->
 
 <p align="center">
