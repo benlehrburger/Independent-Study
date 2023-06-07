@@ -15,8 +15,11 @@ I wanted to find some interesting applications of generative AI for my independe
 2-3. [Computing](###computing)  
 2-4. [Scripts](###scripts)
 3. [Intermediary Models](#intermediary-models)  
-4. [Works Cited](#works-cited)  
-5. [Next Steps](#next-steps)  
+3-1. [Dreambooth Unconditional Pet Diffusion](###dreambooth-unconditional-pet-diffusion)
+3-2. [Stable Diffusion Unconditional Church Generation](###stable-diffusion-unconditional-church-generation)
+3-3. [Naive Chatbot Trained on Text Message Data](###naive-chatbot-trained-on-text-message-data)
+5. [Tutorials](#tutorials)  
+6. [Next Steps](#next-steps)  
 
 # Outputs
 
@@ -123,7 +126,7 @@ This [model](./Models/ImageGeneration/DreamBooth) was made using Dreambooth, whi
 This technique was fun because it's a lot of bang for your buck. Five minutes to create a dataset, 2 minutes on a GPU, and it's ready to go. That said, it certainly didn't work all of the time. Just look at the difference in these two samples generated from the same batch:
 
 <p align="center">
-    <img src=".Outputs/DreamBooth/Good-Ex.png" alt="Nala at Acropolis" width="45%" />
+    <img src="./Outputs/DreamBooth/Good-Ex.png" alt="Nala at Acropolis" width="45%" />
     <img src="./Outputs/DreamBooth/Bad-Ex.png" alt="Nala at Acropolis" width="45%" />
 </p>
 
@@ -133,9 +136,31 @@ This technique was fun because it's a lot of bang for your buck. Five minutes to
 
 ### Stable Diffusion Unconditional Church Generation
 
+On my way toward a text-guided image-to-image model, I first tried [unconditional architecture generation](./Models/ImageGeneration/GenerativeArchitecture). I began with the [LSUN Church Generative Model](https://www.yf.io/p/lsun) as a starting point, which generates low-res images of churches. I didn't want my model to have to learn image construction from scratch and this model appeared a good canvas to build on top of. I then finetuned the church-generating model on my [modern architecture dataset](https://huggingface.co/datasets/benlehrburger/modern-architecture) for varying amounts of depth, and found that the model reached a peak loss around 50 epochs of finetuning.
+
+<p align="center">
+    <img src="https://i.redd.it/xs037auj3cn61.png" alt="LSUN Church Example" width="45%" />
+    <img src="./Outputs/GenerativeArchitecture/ChurchDiffusion/Epoch50-1.png" alt="Modern Generated House" width="45%" />
+</p>
+
+<p align="center">
+    <em>Prompt = "Original LSUN Church Image vs. Modern Finetuned Generated Image"</em>
+</p>
+
+This model was not nearly as powerful as the others, as you can tell by the low resolution and fuzzy edges. Sometimes when you work on this stuff for too long at a time you start to envision outputs that aren't really there. For instance, the following images were some of the model's better outputs, but it's clear that there is just not enough potency in my dataset to bridge the gap from churches to modern architecture.
+
+<p align="center">
+    <img src="./Outputs/GenerativeArchitecture/ChurchDiffusion/Epoch50-2.png" alt="Modern Generated House" width="45%" />
+    <img src="./Outputs/GenerativeArchitecture/ChurchDiffusion/Epoch100.png" alt="Modern Generated House" width="45%" />
+</p>
+
+<p align="center">
+    <em>Prompt = "Modern Finetuned Generated Image Samples"</em>
+</p>
+
 ### Naive Chatbot Trained on Text Message Data
 
-# Works Cited
+# Tutorials
 
 # Next Steps
 
