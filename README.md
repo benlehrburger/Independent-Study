@@ -1,6 +1,6 @@
 # Generative AI: Empowering Creatives with Specialized Image and Language Models
 
-I'll cut to the chase. Yes, generative AI is cool, and no, I don't think it's going destroy humanity.
+I'll cut to the chase. Generative AI is cool but no, I don't think it's going destroy humanity.
 
 I wanted to find some interesting applications of generative AI for my independent study in Cognitive Science @ Dartmouth College. Formally, my focus  area is "How can understanding the brain help us build better tools?" I have learned that Generative AI is a powerful application of brain-based software that affords incredible opportunities for creating tools that improve the human experience. Whether it's neurons or nodes, the emergent properties resulting from millions of finetuned dials never ceases to amaze me.
 
@@ -54,7 +54,16 @@ To be a fully deployable tool, the model should be further finetuned on organic 
     <em>Prompt = "modern church that pays homage to its religious symbolism through carefully crafted contemporary stained glass windows, capturing the play of light and color"</em>
 </p>
 
+Yes, those prompts were generated with ChatGPT. I'm really leaning into this whole thing.
+
 ## Masked Language Models for Personalized Autocompletion
+
+I trained a masked language model to autocomplete my next word based on my undergraduate writings. The vision is something like a personalized [Grammarly](https://www.grammarly.com/) but with control over your data. I compiled a [training corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus) of over 3000 lines of writing samples from essays I had written during my time in college, which I used to finetune [DistilBERT](https://huggingface.co/distilbert-base-uncased) for 50 epochs. The "masked" in masked language model represents the word to be predicted, like so:
+
+> Cognitive [MASK] >>> cognitive neuroscience
+<p align="center">
+    <em>close enough</em>
+</p>
 
 # Training
 
