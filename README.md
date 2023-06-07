@@ -29,7 +29,7 @@ My best findings comprise the following tools. I cast a wide net into the pool o
 </p>
 
 <p align="center">
-    <em>Model Input</em> --> <em>Model Output</em>
+    <em>Prompt = "modern house with a spacious home office, featuring large windows, a sleek desk setup, and plenty of natural light to inspire productivity"</em>
 </p>
 
 ## Masked Language Models for Personalized Autocompletion
