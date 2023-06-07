@@ -5,8 +5,6 @@ tags:
 - diffusers
 - stable-diffusion
 - text-to-image
-- diffusion-models-class
-- dreambooth-hackathon
 ---
 
 # DreamBooth model with special identifier for my pet rabbit, Nala.
