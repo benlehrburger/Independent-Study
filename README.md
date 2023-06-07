@@ -29,7 +29,7 @@ My best findings comprise the following tools. I cast a wide net into the pool o
 </p>
 
 <p align="center">
-    <em>Model Input</em>       -->       <em>Model Output</em>
+    <em>Model Input</em> --> <em>Model Output</em>
 </p>
 
 ## Masked Language Models for Personalized Autocompletion
