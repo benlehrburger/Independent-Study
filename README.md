@@ -19,7 +19,7 @@ I wanted to find some interesting applications of generative AI for my independe
 
 # Outputs
 
-My best findings comprise the following tools. I cast a wide net into the pool of generative AI and p
+My best findings comprise the following tools. I cast a wide net into the pool of generative AI and only pursued what I perceived to be the most promising routes. Generative image and language tools have seen remarkable growth over the past couple years and are now open-source, generalizable, and customizable. Check out what I was able to create below.
 
 ## Text-Guided Image-to-Image Generation for Modern Architecture Design
 
