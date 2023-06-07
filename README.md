@@ -13,7 +13,7 @@ I wanted to find some interesting applications of generative AI for my independe
 2-1. [Data](###data)  
 2.2. [Models](###models)  
 2-3. [Computing](###computing)  
-2-4. [Scripts](###scripts
+2-4. [Scripts](###scripts)
 3. [Intermediary Models](#intermediary-models)  
 4. [Works Cited](#works-cited)  
 5. [Next Steps](#next-steps)  
@@ -86,8 +86,8 @@ I think if I were to give the tool more of a capacity for "long-term memory" mov
 
 ### Models
 
-• [Generative Architecture](./Models/ImageGeneration)
-• [Masked Language Model](./Models/LanguageModels/AutoComplete)
+• [Generative Architecture](./Models/ImageGeneration)  
+• [Masked Language Model](./Models/LanguageModels/AutoComplete)  
 
 ### Computing
 
@@ -95,10 +95,10 @@ I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dart
 
 ### Scripts
 
-• [Train Generative Architecture](./Scripts/Train/archGenDepth.py)
-• [Train Autocomplete](./Scripts/Train/archGenDepth.py)
-• [Feed-Forward Architecture](./Scripts/FeedForward/forwardNPaint.py
-• [Feed-Forward Autocomplete](./Scripts/FeedForward/forwardComplete.py)
+• [Train Generative Architecture](./Scripts/Train/archGenDepth.py)  
+• [Train Autocomplete](./Scripts/Train/archGenDepth.py)  
+• [Feed-Forward Architecture](./Scripts/FeedForward/forwardNPaint.py)  
+• [Feed-Forward Autocomplete](./Scripts/FeedForward/forwardComplete.py)  
 
 # Intermediary Models
 
