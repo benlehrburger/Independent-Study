@@ -60,10 +60,21 @@ Yes, those prompts were generated with ChatGPT. I'm really leaning into this who
 
 I trained a masked language model to autocomplete my next word based on my undergraduate writings. The vision is something like a personalized [Grammarly](https://www.grammarly.com/) but with control over your data. I compiled a [training corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus) of over 3000 lines of writing samples from essays I had written during my time in college, which I used to finetune [DistilBERT](https://huggingface.co/distilbert-base-uncased) for 50 epochs. The "masked" in masked language model represents the word to be predicted, like so:
 
-> Cognitive [MASK] >>> cognitive neuroscience
-<p align="left">
-    <em>close enough</em>
-</p>
+>Cognitive [MASK] >>> cognitive neuroscience
+
+The model does well at predicting words in a coherent way.
+
+>I'm looking for [MASK] >>> i'm looking for answers
+>I believe in [MASK] >>> i believe in truth
+
+But it doesn't exactly understand who I am.
+
+>I go to school in [MASK] >>> i go to school in bangkok
+>Ben [MASK] >>> ben!
+
+I think if I were to give the tool more of a capacity for "long-term memory" moving forwards and consistently train it, it would really start to become a helpful, personalized writing aide. But right now it's just kind of weirdly pessimistic:
+
+>One day we will [MASK] >>> one day we will die
 
 # Training
 
