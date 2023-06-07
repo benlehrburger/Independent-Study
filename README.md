@@ -11,8 +11,9 @@ I wanted to find some interesting applications of generative AI for my independe
 1-2. [Masked Language Models for Personalized Autocompletion](##masked-language-models-for-personalized-autocompletion)  
 2. [Training](#training)  
 2-1. [Data](###data)  
-2-2. [Computing](###computing)  
-2-3. [Models](###models)  
+2.2. [Models](###models)  
+2-3. [Computing](###computing)  
+2-4. [Scripts](###scripts
 3. [Intermediary Models](#intermediary-models)  
 4. [Works Cited](#works-cited)  
 5. [Next Steps](#next-steps)  
@@ -58,7 +59,7 @@ Yes, those prompts were generated with ChatGPT. I'm really leaning into this who
 
 ## Masked Language Models for Personalized Autocompletion
 
-I trained a masked language model to autocomplete my next word based on my undergraduate writings. The vision is something like a personalized [Grammarly](https://www.grammarly.com/) but with control over your data. I compiled a [training corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus) of over 3000 lines of writing samples from essays I had written during my time in college, which I used to finetune [DistilBERT](https://huggingface.co/distilbert-base-uncased) for 50 epochs. The "masked" in masked language model represents the word to be predicted, like so:
+I trained a masked language model to autocomplete my next word based on my undergraduate writings. The vision is something like a personalized Grammarly but with control over your data. I compiled a [training corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus) of over 3000 lines of writing samples from essays I had written during my time in college, which I used to finetune [DistilBERT](https://huggingface.co/distilbert-base-uncased) for 50 epochs. The "masked" in masked language model represents the word to be predicted, like so:
 
 >Cognitive [MASK] >>> cognitive neuroscience
 
@@ -80,9 +81,19 @@ I think if I were to give the tool more of a capacity for "long-term memory" mov
 
 ### Data
 
-### Computing
+• [Modern Architecture](https://huggingface.co/datasets/benlehrburger/modern-architecture)  
+• [College Text Corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus)  
 
 ### Models
+
+• [Generative Architecture](Models/ImageGeneration)
+• [Masked Language Model](./Models/LanguageModels/AutoComplete)
+
+### Computing
+
+I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dartmouth.edu/index.php/discovery-overview/) GPUs, in conjunction with [Dartmouth Research Computing](https://rc.dartmouth.edu/). The remote cluster drastically sped up training and feed-forward runs, by about 10^2 the speed my CPU was running at. Special thank you to Kunal Jha, a D'24 ML wizard, who helped me get set up with the cluster. I 
+
+### Scripts
 
 # Intermediary Models
 
