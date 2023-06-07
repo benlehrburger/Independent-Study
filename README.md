@@ -24,8 +24,8 @@ My best findings comprise the following tools. I cast a wide net into the pool o
 ## Text-Guided Image-to-Image Generation for Modern Architecture Design
 
 <div align="center">
-    <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Input.jpg" alt="Input Image" width="45%" />
-    <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Out5.png" alt="Output Image" width="45%" />
+    <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Input.jpg" alt="Input Image" width="400" />
+    <img src="./Outputs/GenerativeArchitecture/Img2Img/House/Out5.png" alt="Output Image" width="400" />
 </div>
 
 | Caption 1 | Caption 2 |
