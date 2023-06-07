@@ -61,7 +61,7 @@ Yes, those prompts were generated with ChatGPT. I'm really leaning into this who
 I trained a masked language model to autocomplete my next word based on my undergraduate writings. The vision is something like a personalized [Grammarly](https://www.grammarly.com/) but with control over your data. I compiled a [training corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus) of over 3000 lines of writing samples from essays I had written during my time in college, which I used to finetune [DistilBERT](https://huggingface.co/distilbert-base-uncased) for 50 epochs. The "masked" in masked language model represents the word to be predicted, like so:
 
 > Cognitive [MASK] >>> cognitive neuroscience
-<p align="center">
+<p align="left">
     <em>close enough</em>
 </p>
 
