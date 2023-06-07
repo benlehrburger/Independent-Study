@@ -6,16 +6,16 @@ I wanted to find some interesting applications of generative AI for my independe
 
 ## Table of Contents
 
-1. [Outputs](#outputs)
-1-1. [Text-Guided Image-to-Image Generation for Modern Architecture Design](##text-guided-image-to-image-generation-for-modern-architecture-design)
-1-2. [Masked Language Models for Personalized Autocompletion](##masked-language-models-for-personalized-autocompletion)
-2. [Training](#training)
-2-1. [Data](###data)
-2-2. [Computing](###computing)
-2-3. [Models](###models)
-3. [Intermediary Models](#intermediary-models)
-4. [Works Cited](#works-cited)
-5. [Next Steps](#next-steps)
+1. [Outputs](#outputs)  
+1-1. [Text-Guided Image-to-Image Generation for Modern Architecture Design](##text-guided-image-to-image-generation-for-modern-architecture-design)  
+1-2. [Masked Language Models for Personalized Autocompletion](##masked-language-models-for-personalized-autocompletion)  
+2. [Training](#training)  
+2-1. [Data](###data)  
+2-2. [Computing](###computing)  
+2-3. [Models](###models)  
+3. [Intermediary Models](#intermediary-models)  
+4. [Works Cited](#works-cited)  
+5. [Next Steps](#next-steps)  
 
 # Outputs
 
