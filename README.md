@@ -177,7 +177,7 @@ This [naive chatbot](./Models/LanguageModels/NaiveChatbot/Naive Chatbot.ipynb) w
 
 Prior to this project, most of my work in the AI space had been with classifiers and prediction-making – not generative technologies. So, I spent the first four weeks of study project dipping my toes in different areas of AI. I followed many tutorials and read many papers, but the following resources are what really helped me solidify my foundations. I would highly recommend these series to anyone interested in the technologies I've presented above.
 
-  • Neural Networks: [Zero to Hero](https://karpathy.ai/zero-to-hero.html) (Andrej Karpathy)  
+  • [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) (Andrej Karpathy)  
   • [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class)  
 
 I also kept a bibliography throughout the project of papers I referenced and built upon. That list is attached below:
