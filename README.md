@@ -18,8 +18,9 @@ I wanted to find some interesting applications of generative AI for my independe
 3-1. [Dreambooth Unconditional Pet Diffusion](###dreambooth-unconditional-pet-diffusion)  
 3-2. [Stable Diffusion Unconditional Church Generation](###stable-diffusion-unconditional-church-generation)  
 3-3. [Naive Chatbot Trained on Text Message Data](###naive-chatbot-trained-on-text-message-data)  
-5. [Tutorials](#tutorials)  
-6. [Next Steps](#next-steps)  
+5. [Works Cited](#works-cited)  
+6. [Acknowledgements](#acknowledgements)
+7. [Next Steps](#next-steps)  
 
 # Outputs
 
@@ -84,13 +85,13 @@ I think if I were to give the tool more of a capacity for "long-term memory" mov
 
 ### Data
 
-• [Modern Architecture](https://huggingface.co/datasets/benlehrburger/modern-architecture)  
-• [College Text Corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus)  
+  • [Modern Architecture](https://huggingface.co/datasets/benlehrburger/modern-architecture)  
+  • [College Text Corpus](https://huggingface.co/datasets/benlehrburger/college-text-corpus)  
 
 ### Models
 
-• [Generative Architecture](./Models/ImageGeneration)  
-• [Masked Language Model](./Models/LanguageModels/AutoComplete)  
+  • [Generative Architecture](./Models/ImageGeneration)  
+  • [Masked Language Model](./Models/LanguageModels/AutoComplete)  
 
 ### Computing
 
@@ -98,10 +99,10 @@ I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dart
 
 ### Scripts
 
-• [Train Generative Architecture](./Scripts/Train/archGenDepth.py)  
-• [Train Autocomplete](./Scripts/Train/archGenDepth.py)  
-• [Feed-Forward Architecture](./Scripts/FeedForward/forwardNPaint.py)  
-• [Feed-Forward Autocomplete](./Scripts/FeedForward/forwardComplete.py)  
+  • [Train Generative Architecture](./Scripts/Train/archGenDepth.py)  
+  • [Train Autocomplete](./Scripts/Train/archGenDepth.py)  
+  • [Feed-Forward Architecture](./Scripts/FeedForward/forwardNPaint.py)  
+  • [Feed-Forward Autocomplete](./Scripts/FeedForward/forwardComplete.py)  
 
 # Intermediary Models
 
@@ -162,20 +163,45 @@ This model was not nearly as powerful as the others, as you can tell by the low 
 
 This [naive chatbot](./Models/LanguageModels/NaiveChatbot/Naive Chatbot.ipynb) was a stepping stone on my way to some sort of a custom large language model, which ended up becoming the aforementioned autocompletion tool. For a dataset, I downloaded my entire iPhone text history (which I did not publish online for obvious reasons) and isolated only messages I had sent. I then trained a chatbot from Python's Chatterbot library, but the chatbot was far too sensitive to my training data, which was also garbage. It turns out I am a gramatically terrible texter. Here are some of the dialogues between the chatbot and I:
 
->Me: Hello
->Text-me: hello Joey
-<em>Joe (Joey) is a good friend.</em>
->Me: How are you?
->Text-me: tired
-<em>Sounds like me.</em>
->Me: What are you doing tonight?
->Text-me: where did you find it
-><em>It really knows how to kill a good conversation.</em>
+>Me: Hello  
+>Text-me: hello Joey  
+<em>Joe (Joey) is a good friend.</em>  
+>Me: How are you?  
+>Text-me: tired  
+<em>Sounds like me.</em>  
+>Me: What are you doing tonight?  
+>Text-me: where did you find it  
+><em>It really knows how to kill a good conversation.</em>  
 
-# Tutorials
+# Works Cited
+
+Prior to this project, most of my work in the AI space had been with classifiers and prediction-making – not generative technologies. So, I spent the first four weeks of study project dipping my toes in different areas of AI. I followed many tutorials and read many papers, but the following resources are what really helped me solidify my foundations. I would highly recommend these series to anyone interested in the technologies I've presented above.
+
+  • Neural Networks: [Zero to Hero](https://karpathy.ai/zero-to-hero.html) (Andrej Karpathy)  
+  • [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class)  
+
+I also kept a bibliography throughout the project of papers I referenced and built upon. That list is attached below:
+
+  • [JMLR Paper: Bengio et al. - A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)  
+  • [arXiv: Adversarial Autoencoders](https://arxiv.org/abs/2303.12712)  
+  • [ICCV Paper: He et al. - Delving Deep into Rectifiers](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf)  
+  • [arXiv: Vinyals et al. - Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1502.03167)  
+  • [arXiv: Goodfellow et al. - Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)  
+  • [arXiv: Szegedy et al. - Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)  
+  • [arXiv: Radford et al. - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)  
+  • [arXiv: Zhang et al. - Understanding Deep Learning Requires Rethinking Generalization](https://arxiv.org/abs/1611.03530)  
+  • [JMLR Paper: Srivastava et al. - Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)  
+  • [MIT Technology Review: The Future of Generative AI](https://www.technologyreview.com/2023/04/27/1072102/the-future-of-generative-ai-is-niche-not-generalized/)  
+  • [arXiv: Park et al. - Revisiting Unreasonable Effectiveness of Data in Deep Learning Era](https://arxiv.org/abs/2208.12242)  
+
+# Acknowledgements
+
+Thank you to Professor Jeremy Manning for advising this study and to Professor David Kraemer for his pending review.
 
 # Next Steps
 
-
-
-
+  • Publishing Discovery cluster documentation  
+  • Finetuning models to point of deployment  
+  • Building out frontend for ease of use  
+  • (Long-term) ChatGPT-fueled crossword generator  
+  
