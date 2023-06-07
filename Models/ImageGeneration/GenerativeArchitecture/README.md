@@ -3,7 +3,6 @@ tags:
 - pytorch
 - diffusers
 - unconditional-image-generation
-- diffusion-models-class
 ---
 
 # Multi-epoch (100) unconditional image generation model finetuned with modern architecture data
