@@ -4,17 +4,12 @@ import math
 import torch.nn.functional as F
 from tqdm.auto import tqdm
 from fastcore.script import call_parse
-from torchvision import transforms
 from datasets import load_dataset
 
-from transformers import AutoModelForMaskedLM
-from transformers import DataCollatorForLanguageModeling
-from transformers import AutoTokenizer
+from transformers import AutoModelForMaskedLM, DataCollatorForLanguageModeling, AutoTokenizer, get_scheduler, default_data_collator
 import collections
-from transformers import default_data_collator
 from torch.optim import AdamW
 from accelerate import Accelerator
-from transformers import get_scheduler
 from huggingface_hub import HfApi, ModelCard, create_repo, get_full_repo_name, Repository
 from torch.utils.data import DataLoader
 
