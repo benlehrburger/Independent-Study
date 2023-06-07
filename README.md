@@ -23,6 +23,8 @@ My best findings comprise the following tools. I cast a wide net into the pool o
 
 ## Text-Guided Image-to-Image Generation for Modern Architecture Design
 
+![Output Image]([image-url](https://github.com/benlehrburger/Independent-Study/blob/main/Outputs/GenerativeArchitecture/Img2Img/House/Out5.png))
+
 ## Masked Language Models for Personalized Autocompletion
 
 # Training
