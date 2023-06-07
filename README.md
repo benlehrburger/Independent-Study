@@ -110,7 +110,7 @@ I ran most of my computations on Dartmouth's [Discovery Cluster](https://rc.dart
 </p>
 
 <p align="center">
-    <em>Nala has never been to the beach</em>
+    <em>Prompt = "Nala the bunny on the beach"</em>
 </p>
 
 This [model](./Models/ImageGeneration/DreamBooth) was made using Dreambooth, which is a technique to teach new concepts to Stable Diffusion with very little training data. My [dataset](https://huggingface.co/datasets/benlehrburger/dreambooth-animal) for this model consists of just 17 images of my pet bunny, Nala. While she may seem slightly demented is those generated images above, it's actually not that far off from what she actually looks like:
@@ -120,6 +120,16 @@ This [model](./Models/ImageGeneration/DreamBooth) was made using Dreambooth, whi
     <img src="https://datasets-server.huggingface.co/assets/benlehrburger/dreambooth-animal/--/benlehrburger--dreambooth-animal/train/10/image/image.jpg" alt="Nala Posing" width="45%" />
 </p>
 
+This technique was fun because it's a lot of bang for your buck. Five minutes to create a dataset, 2 minutes on a GPU, and it's ready to go. That said, it certainly didn't work all of the time. Just look at the difference in these two samples generated from the same batch:
+
+<p align="center">
+    <img src=".Outputs/DreamBooth/Good-Ex.png" alt="Nala at Acropolis" width="45%" />
+    <img src="./Outputs/DreamBooth/Bad-Ex.png" alt="Nala at Acropolis" width="45%" />
+</p>
+
+<p align="center">
+    <em>Prompt = "Nala the bunny at the Acropolis"</em>
+</p>
 
 ### Stable Diffusion Unconditional Church Generation
 
