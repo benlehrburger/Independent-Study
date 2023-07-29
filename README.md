@@ -161,7 +161,7 @@ This model was not nearly as powerful as the others, as you can tell by the low 
 
 ### Naive Chatbot Trained on Text Message Data
 
-This [naive chatbot](./Models/LanguageModels/NaiveChatbot/Naive Chatbot.ipynb) was a stepping stone on my way to some sort of a custom large language model, which ended up becoming the aforementioned autocompletion tool. For a dataset, I downloaded my entire iPhone text history (which I did not publish online for obvious reasons) and isolated only messages I had sent. I then trained a chatbot from Python's Chatterbot library, but the chatbot was far too sensitive to my training data, which was also garbage. It turns out I am a gramatically terrible texter. Here are some of the dialogues between the chatbot and I:
+This [naive chatbot]([./Models/LanguageModels/NaiveChatbot/Naive Chatbot.ipynb](https://github.com/benlehrburger/Independent-Study/blob/main/Models/LanguageModels/NaiveChatbot/Naive%20Chatbot.ipynb) was a stepping stone on my way to some sort of a custom large language model, which ended up becoming the aforementioned autocompletion tool. For a dataset, I downloaded my entire iPhone text history (which I did not publish online for obvious reasons) and isolated only messages I had sent. I then trained a chatbot from Python's Chatterbot library, but the chatbot was far too sensitive to my training data, which was also garbage. It turns out I am a gramatically terrible texter. Here are some of the dialogues between the chatbot and I:
 
 >Me: Hello  
 >Text-me: hello Joey  
